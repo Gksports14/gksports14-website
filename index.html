@@ -38,6 +38,22 @@ footer{background:#07131e;color:white;padding:25px;text-align:center}
 .steps{grid-template-columns:1fr 1fr}
 nav{display:none}
 }body{background:#0b0b0b;color:#fff}
+  
+section:has(.steps) {
+  background: #ff69b4 !important;
+  color: #000 !important;
+}
+section:has(.steps) h2,
+.steps .step,
+.steps .step b,
+.steps .step p {
+  color: #000 !important;
+}
+.steps .step {
+  background: #ff69b4 !important;
+  border: 1px solid #000 !important;
+}
+  
 h2{color:#f5c400}
 section{background:#111;color:#fff}
 section p{color:#eee}
